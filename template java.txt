@@ -1,0 +1,22 @@
+
+	class A<t>
+	{
+		t a;
+		t b;
+		public t get()
+		{ 
+		return a+b;
+		}
+		public t add(t f)
+		{ 
+		return a+b;
+		}
+	}
+	
+
+psvm
+	A<String> ob=new A<String>();
+
+	ob.add("hello")
+	ob.get()
+
